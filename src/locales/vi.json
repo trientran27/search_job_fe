@@ -1,0 +1,195 @@
+{
+    "validation": {
+        "required": "Không được để trống.",
+        "positiveNumber": "Hãy nhập số dương.",
+        "maxLength": "Tối đa {{size}} ký tự.",
+        "phoneError": "Số điện thoại này không thích hợp",
+        "emailError": "Email này không thích hợp"
+    },
+    "message": {
+        "createSuccess": "Thêm mới thành công.",
+        "updateSuccess": "Cập nhật thành công.",
+        "deleteSuccess": "Xóa dữ liệu thành công.",
+        "disableSuccess": "Vô hiệu hóa thành công.",
+        "notFound": "Không tìm thấy",
+        "noData": "Không có dữ liệu, vui lòng thử tìm kiếm",
+        "noResult": "Không tìm thấy kết quả cho từ khóa {{keyword}}. Vui lòng kiểm tra lại từ khóa.",
+        "dialogDeleteTitle": "Xác nhận xóa?",
+        "dialogDeleteContent": "Đồng ý xóa dữ liệu bạn đã chọn. Hành động này không thể được phục hồi.",
+        "dropFile": "Kéo thả hoặc chọn tệp",
+        "permissionDeny": "Từ chối truy cập",
+        "permissionDenyDescription": "Bạn không có đủ quyền để truy cập trang này"
+    },
+    "menu": {
+        "group": "GROUP",
+        "role": "Vai trò",
+        "privilege": "Quyền",
+        "tag": "Chủ đề",
+        "dashboard": "Trang chủ",
+        "user": "Thành viên",
+        "comment": "Bình luận",
+        "profile": "Hồ sơ",
+        "logout": "Đăng xuất",
+        "post": "Bài viết",
+        "cateJob": "Ngành nghề",
+        "setting": "Cài đặt",
+        "general": "Tổng quát",
+        "analytics": "Thống kê",
+        "cache": "Cache"
+    },
+    "button": {
+        "new": "Tạo mới",
+        "save": "Lưu lại",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "clearAll": "Xóa thiết lập",
+        "postComment": "Đăng bình luận",
+        "addComment": "Thêm bình luận",
+        "agree": "Đồng ý",
+        "disagree": "Không đồng ý",
+        "goBack": "Quay lại",
+        "view": "Xem",
+        "preview": "Xem trước",
+        "close": "Đóng",
+        "process": "Xử lý"
+    },
+    "label": {
+        "search": "Tìm kiếm...",
+        "otherSection": "Thông tin bổ sung",
+        "placeTextHolder": "Viết nội dung của bạn...",
+        "columns": "Cột dữ liệu",
+        "filters": "Bộ lọc",
+        "actions": "Hành động",
+        "selected": "được chọn",
+        "dense": "Dày hơn",
+        "all": "Tất cả",
+        "active": "Kích hoạt",
+        "pending": "Đang chờ",
+        "cancel": "Hủy",
+        "draft": "Bản nháp",
+        "publish": "Đã đăng",
+        "dontHaveAccount": "Chưa có tài khoản?",
+        "haveAccount": "Đã có tài khoản?",
+        "getStarted": "Bắt đầu ngay",
+        "signinToJmaster": "Đăng nhập JMaster",
+        "enterDetailsBelow": "Lựa chọn hình thức bên dưới.",
+        "login": "Đăng nhập",
+        "manageJob": "Học tập cùng với JMaster",
+        "getStartedFree": "Đăng ký miễn phí",
+        "freeForever": "Tài liệu miễn phí và cộng đồng coder vui vẻ."
+    },
+    "media": {
+        "cache": {
+            "name": "Tên",
+            "keys": "Cache Keys",
+            "listCache": "Danh sách cache"
+        },
+        "privilege": {
+            "api": "API",
+            "authority": "Quyền",
+            "secured": "Bảo mật",
+            "id": "ID",
+            "roles": "Danh sách vai trò",
+            "listPrivilege": "Danh sách quyền",
+            "newPrivilege": "Tạo mới quyền",
+            "method": "Phương thức",
+            "authenticated": "Chỉ xác thực"
+        },
+        "role": {
+            "role": "Vai trò",
+            "id": "ID",
+            "listRole": "Danh sách vai trò",
+            "newRole": "Tạo mới vai trò",
+            "userId": "Danh sách user",
+            "enabled": "Trạng thái"
+        },
+        "user": {
+            "id": "ID",
+            "name": "Tên",
+            "username": "Đăng nhập",
+            "email": "Email",
+            "roles": "Vai trò",
+            "enabled": "Trạng thái",
+            "phone": "Số điện thoại",
+            "address": "Địa chỉ",
+            "password": "Mật khẩu",
+            "createdAt": "Ngày tạo",
+            "createdBy": "Người tạo",
+            "listAccount": "Danh sách thành viên",
+            "photoURL": "Đường dẫn ảnh",
+            "editRole": "Sửa vai trò",
+            "editPhone": "Sửa SĐT",
+            "editEmail": "Sửa email",
+            "editInfo": "Sửa thông tin",
+            "changeStatus": "Đổi trạng thái",
+            "newUser": "Tạo mới người dùng"
+        }
+    },
+    "group": {
+        "cateJob": {
+            "name": "Tên",
+            "id": "ID",
+            "listCateJob": "Danh sách ngành nghề",
+            "newCateJob": "Tạo mới ngành nghề",
+            "createdAt": "Ngày tạo",
+            "enabled": "Trạng thái"
+        },
+        "job": {
+            "name": "Tên",
+            "id": "ID",
+            "listJob": "Danh sách công việc",
+            "newJob": "Tạo mới công việc",
+            "createdAt": "Ngày tạo",
+            "enabled": "Trạng thái"
+        },
+        "company": {
+            "name": "Tên",
+            "id": "ID",
+            "listCompany": "Danh sách công ty",
+            "newCompany": "Tạo mới công ty",
+            "createdAt": "Ngày tạo",
+            "enabled": "Trạng thái"
+        },
+        "tag": {
+            "name": "Tên",
+            "id": "ID",
+            "listTag": "Danh sách chủ đề",
+            "newTag": "Tạo mới chủ đề",
+            "createdAt": "Ngày tạo",
+            "enabled": "Trạng thái"
+        },
+        "comment": {
+            "description": "Mô tả",
+            "id": "ID",
+            "enabled": "Trạng thái",
+            "posts": "Bài viết",
+            "listComment": "Danh sách bình luận",
+            "newComment": "Tạo mới bình luận",
+            "createdAt": "Ngày tạo",
+            "createdBy": "Người tạo"
+        },
+        "post": {
+            "title": "Tiêu đề",
+            "description": "Mô tả",
+            "enabled": "Trạng thái",
+            "id": "ID",
+            "listPost": "Danh sách bài viết",
+            "newPost": "Tạo mới bài viết",
+            "createdAt": "Ngày tạo",
+            "createdBy": "Người tạo",
+            "categories": "Danh mục",
+            "tags": "Chủ đề",
+            "url": "Đường dẫn",
+            "image": "Hình ảnh"
+        },
+        "notification": {
+            "content": "Nội dung",
+            "createdAt": "Ngày tạo",
+            "createdBy": "Người tạo",
+            "enabled": "Trạng thái",
+            "id": "ID",
+            "listNotification": "Danh sách thông báo",
+            "newNotification": "Tạo mới thông báo"
+        }
+    }
+}
